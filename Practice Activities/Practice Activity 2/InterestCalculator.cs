@@ -1,12 +1,12 @@
 using System;
 
-Console.WriteLine("Enter principal amount: ");
+Console.Write("Enter principal amount: ");
 double prAmnt = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Enter rate of interest: ");
+Console.Write("Enter rate of interest: ");
 double rtInt = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Enter time in years: ");
+Console.Write("Enter time in years: ");
 int time = int.Parse(Console.ReadLine());
 
 double simpInt = (prAmnt * rtInt * time) / 100;
